@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Pet Clinic</title>
+    <th:block th:insert="fragments/general.html :: css"></th:block>
 </head>
 <body>
-    <h1>Pet Clinics App</h1>
+    <div class="container bg-primary">
+        <h1>Pet Clinics App</h1>
+    </div>
 
 </body>
 </html>
